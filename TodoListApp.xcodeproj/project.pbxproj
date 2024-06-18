@@ -23,6 +23,7 @@
 		04F67EAF2C1E5F2100D28707 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04F67EAE2C1E5F2100D28707 /* Alamofire */; };
 		04F67EB22C1E5F7500D28707 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F67EB12C1E5F7500D28707 /* TodoViewModel.swift */; };
 		04F67EB92C20333600D28707 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F67EB82C20333600D28707 /* Todo.swift */; };
+		04F67EFD2C2205F600D28707 /* TodoNetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F67EFC2C2205F600D28707 /* TodoNetworkClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		04F67EAB2C1E223400D28707 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
 		04F67EB12C1E5F7500D28707 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		04F67EB82C20333600D28707 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		04F67EFC2C2205F600D28707 /* TodoNetworkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoNetworkClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		04F67E722C1DD45600D28707 /* TodoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				04F67EFB2C2205D100D28707 /* NetworkLayer */,
 				04F67EBD2C2033EB00D28707 /* StoryBoard */,
 				04F67EBC2C2033BB00D28707 /* SingletonClass */,
 				04F67EB52C2032E600D28707 /* View */,
@@ -196,6 +199,14 @@
 				04F67E792C1DD45600D28707 /* Main.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		04F67EFB2C2205D100D28707 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04F67EFC2C2205F600D28707 /* TodoNetworkClass.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 				04F67E742C1DD45600D28707 /* AppDelegate.swift in Sources */,
 				04F67E762C1DD45600D28707 /* SceneDelegate.swift in Sources */,
 				04F67E7E2C1DD45600D28707 /* TodoListApp.xcdatamodeld in Sources */,
+				04F67EFD2C2205F600D28707 /* TodoNetworkClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
